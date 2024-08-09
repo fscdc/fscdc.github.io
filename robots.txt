@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://SichengFeng.tech/sitemap.xml
+Sitemap: https://sichengfeng.tech/sitemap.xml
