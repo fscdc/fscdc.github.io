@@ -18,5 +18,3 @@ social: true # includes social icons at the bottom of the page
 ---
 
 I am currently an undergraduate student in [Nankai University](https://www.nankai.edu.cn/), majoring in Computer Science and minoring in Actuarial Science. I’m looking for *co-worker* to collaborate on FMs & AI4Sci & AI4Bio. We can do some excellent works together. I joined the [BioX Lab](https://biox-nku.github.io/#) since April 2024 supervised by [Prof. Shengquan Chen](https://math.nankai.edu.cn/2022/0301/c5623a432805/page.htm)
-
-<iframe src="./maps.html" width="900" height="600" style="border: none;"></iframe>
