@@ -2,96 +2,59 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Sicheng Feng (冯思程)
     - name: Date of Birth
-      value: 14th March 1879
+      value: 30th Oct 2002
     - name: Languages
-      value: English, German
+      value: English, Chinese
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Bachelor of Computer Science
+      institution: Nankai University, Tianjin, China
+      year: 2021-2025
+
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Visiting Student
+      institution: Westlake University, Hangzhou, China
+      year: 2024.7 - NOW
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
+    - title: Intern Researcher
+      institution: Nankai University, Tianjin, China
+      year: 2024.4 - 2024.7
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Assistant Researcher
+      institution: Nankai University, Tianjin, China
+      year: 2023.6 - 2023.12
 
-- title: Open Source Projects
+- title: Awards & Scholarships
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - year: 2023.12
+      items:
+        - Provincial second prize in the National College Student Mathematical Modeling Competition
+    - year: 2023.10
+      items:
+        - First-class university scholarship
+    - year: 2023.8
+      items:
+        - National third prize in the Huashu Cup National College Students Mathematical Modeling Competition
+    - year: 2023.7
+      items:
+        - Team leader of the 'Excellent Team'
+    - year: 2019.9
+      items:
+        - The 'Distinction' level award (top 15\% nationwide) in the 2019 AMC10 Competition
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: AI4Bio.
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - Single cell.
