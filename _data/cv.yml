@@ -58,3 +58,10 @@
     - title: AI4Bio.
       items:
         - Single cell.
+    - title: Efficient AI
+      items:
+        - Pruning.
+        - Model acceleration.
+    - title: Interdisciplinary foundation models
+      items:
+        - Transformer-based.
