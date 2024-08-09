@@ -1,16 +1,16 @@
 ---
 layout: post
-title: a post with tabs
+title: Paper Notes
 date: 2024-05-01 00:32:13
-description: this is what included tabs in a post could look like
-tags: formatting code
+description: this is my notes for papers
+tags: note
 categories: sample-posts
 tabs: true
 ---
 
-This is how a post with [tabs](https://github.com/Ovski4/jekyll-tabs) looks like. Note that the tabs could be used for different purposes, not only for code.
+This post is for update my papers notes.
 
-## First tabs
+<!-- ## First tabs
 
 To add tabs, use the following syntax:
 
@@ -119,4 +119,4 @@ Hipster list
 
 {% endtab %}
 
-{% endtabs %}
+{% endtabs %} -->
