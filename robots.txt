@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://sichengfeng.tech/sitemap.xml
+Sitemap: https://fscdc.github.io/sichengfeng/sitemap.xml
