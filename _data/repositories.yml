@@ -1,14 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - fscdc
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - fscdc/NKU-CS-FSC
+  - fscdc/final_project
+  - BioX-NKU/scBackdoor
