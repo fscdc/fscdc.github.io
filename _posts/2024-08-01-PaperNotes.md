@@ -10,11 +10,11 @@ tabs: true
 
 This post is for update my papers notes. Below are my research notes from papers in various fields:
 
-1. Please click [HERE](./model4ts/)(LLM-based Time series analysis) for more details.
-2. Please click [HERE](./backdoor/)(Backdoor attacks) for more details.
-3. Please click [HERE](./interesting/)(Interesting papers) for more details.
-4. Please click [HERE](./bio/)(papers about AI4Bio, scRNA-seq. etc.) for more details.
-5. Please click [HERE](./efficient-llm/)(papers about Efficient AI, Efficient LLM, etc.) for more details.
+1. Please click [HERE](https://fscdc.github.io/blog/2024/model4ts/)(LLM-based Time series analysis) for more details.
+2. Please click [HERE](https://fscdc.github.io/blog/2024/backdoor/)(Backdoor attacks) for more details.
+3. Please click [HERE](https://fscdc.github.io/blog/2024/interesting/)(Interesting papers) for more details.
+4. Please click [HERE](https://fscdc.github.io/blog/2024/bio/)(papers about AI4Bio, scRNA-seq. etc.) for more details.
+5. Please click [HERE](https://fscdc.github.io/blog/2024/efficient-llm/)(papers about Efficient AI, Efficient LLM, etc.) for more details.
 <!-- TODO -->
 6. Please click [HERE]()(papers about Pruning, not ready for now) for more details. 
 
