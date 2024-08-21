@@ -12,7 +12,6 @@ This Page collects the papers and codes of Backdoor attacks on LLM or TS. Additi
 
 LIST:
 
-
 * Backdoor Learning: A Survey [\[Paper\]](https://arxiv.org/pdf/2007.08745.pdf) [\[Note\]](./Backdoor/BL-survey.md) 
 
 * A survey on Large Language Model (LLM) security and privacy: The Good, The Bad, and The Ugly [\[Paper\]](https://www.sciencedirect.com/science/article/pii/S266729522400014X#sec6) [\[Note\]](./Backdoor/servey4llmsp.md)
