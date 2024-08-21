@@ -15,7 +15,9 @@ This post is for update my papers notes. Below are my research notes from papers
 3. Please click [HERE](./interesting/)(Interesting papers) for more details.
 4. Please click [HERE](./bio/)(papers about AI4Bio, scRNA-seq. etc.) for more details.
 5. Please click [HERE](./efficient-llm/)(papers about Efficient AI, Efficient LLM, etc.) for more details.
-5. Please click [HERE]()(papers about Pruning) for more details.
+<!-- TODO -->
+6. Please click [HERE]()(papers about Pruning, not ready for now) for more details. 
+
 
 <!-- ## First tabs
 
