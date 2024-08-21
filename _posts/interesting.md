@@ -1,3 +1,13 @@
+---
+layout: post
+title: Interesting Paper
+date: 2024-05-20 00:13:14
+description: Interesting Paper
+tags: note
+categories: subdirection summary
+tabs: true
+---
+
 This Page collects the papers and codes of which attracted my interests. Additional, I read paper and take notes.
 
 *Keyword: effective LLM, multimodal, cross-discipline, Leverage Learning.*

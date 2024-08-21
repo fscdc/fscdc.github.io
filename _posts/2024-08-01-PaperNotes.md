@@ -4,7 +4,7 @@ title: Paper Notes
 date: 2024-05-01 00:32:13
 description: this is my notes for papers
 tags: note
-categories: sample-posts
+categories: summary
 tabs: true
 ---
 

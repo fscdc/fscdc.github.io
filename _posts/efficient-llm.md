@@ -1,5 +1,14 @@
-This Page collects the papers and codes of Efficient AI, Efficient Large Language Models (LLMs). Additional, I read paper and take notes.
+---
+layout: post
+title: Efficient LLM
+date: 2024-05-20 00:13:14
+description: Efficient LLM
+tags: note
+categories: subdirection summary
+tabs: true
+---
 
+This Page collects the papers and codes of Efficient AI, Efficient Large Language Models (LLMs). Additional, I read paper and take notes.
 
 LIST: 
 

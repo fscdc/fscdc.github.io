@@ -1,3 +1,13 @@
+---
+layout: post
+title: Ai4Bio
+date: 2024-05-20 00:13:14
+description: Ai4Bio
+tags: note
+categories: subdirection summary
+tabs: true
+---
+
 This Page collects the papers and codes of AI4Bio. Additional, I read paper and take notes.
 
 LIST:

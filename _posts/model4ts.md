@@ -1,3 +1,13 @@
+---
+layout: post
+title: Model for Time Series
+date: 2024-05-20 00:13:14
+description: Model for Time Series
+tags: note
+categories: subdirection summary
+tabs: true
+---
+
 This Page collects the papers and codes of Large Language Models (LLMs) and Foundation Models (FMs) for Time Series (TS). Additional, I read paper and take notes.
 
 *After the success of BERT, GPT, and other LLMs in NLP, some researchers have proposed to apply LLMs to Time Series (TS) tasks. They fintune the LLMs on TS datasets and achieve SOTA results.*
