@@ -1,14 +1,14 @@
 ---
 layout: page
 title: Compiler Construction
-description: Founder
+description: Team Member
 img: assets/img/compiler_bg.png
 importance: 5
 category: work
 ---
 
     ---
-    Founder: Sicheng Feng
+    Team Member: Sicheng Feng
     Organization: GitHub
     Date: 2024.2-2024.8
     ---
