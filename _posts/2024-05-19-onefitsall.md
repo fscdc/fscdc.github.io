@@ -1,3 +1,13 @@
+---
+layout: post
+title: One Fits All: Power General Time Series Analysis by Pretrained LM
+date: 2024-05-19 00:13:14
+description: 
+tags: note
+categories: fsc-note
+tabs: true
+---
+
 # One Fits All: Power General Time Series Analysis by Pretrained LM
 
 ## 1. 研究背景/动机

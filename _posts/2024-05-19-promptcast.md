@@ -1,3 +1,13 @@
+---
+layout: post
+title: PromptCast: A New Prompt-based Learning Paradigm for Time Series Forecasting
+date: 2024-05-19 00:13:14
+description: 
+tags: note
+categories: fsc-note
+tabs: true
+---
+
 # PromptCast: A New Prompt-based Learning Paradigm for Time Series Forecasting
 
 ![PromptCast 模型架构图](/pic/promptcast/structure.jpg)
