@@ -24,14 +24,14 @@ tabs: true
 
 ### Rescaling
 为了避免某些数值过大，覆盖了过多的token，数据需要进行预处理，例如进行缩放。不同的LLM之间具体的缩放方法有所不同。
-![Rescaling 方法示意图](/pic/llm4zeroshot/scaling.jpg)
+![Rescaling 方法示意图](./pic/llm4zeroshot/scaling.jpg)
 
 ### Sampling / Forecasting
 每次预测时，通过多次采样实验获得多组预测值，取这些预测值的中位数或均值作为点预测的结果，以增加结果的鲁棒性。
 
 ### Continuous Likelihoods
 LLM的概率分布是离散的，需要将其转换为连续概率密度，方法是简单地在段内赋予均匀分布。
-![连续概率密度示意图](/pic/llm4zeroshot/p.jpg)
+![连续概率密度示意图](./pic/llm4zeroshot/p.jpg)
 
 ### Language Models as Flexible Distributions
 序列预测本质上是对未来值的条件分布进行建模，因此LLM自然也适用于此类任务。

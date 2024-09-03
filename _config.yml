@@ -135,7 +135,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 blog_name: FSC-Blog # blog_name will be displayed in your blog page
 blog_description: My personal blog 
 permalink: /blog/:year/:title/
-lsi: false # produce an index for related posts
+lsi: True # produce an index for related posts
 
 # Pagination
 pagination:

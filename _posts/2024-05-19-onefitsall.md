@@ -17,7 +17,7 @@ tabs: true
 任务全面，方法虽然相对简单，但微调效果良好。
 
 ## 3. 主要方法
-![方法概述图](/pic/onefitsall/structure.jpg)
+![方法概述图](./pic/onefitsall/structure.jpg)
 本研究的方法简单直接：
 - **Self-attention** 和 **FFN** 被冻结，即LLM的核心部分被冻结。只训练 **positional embedding**、**input embedding**、**线性输出层** 和 **Layer Norm层**。
 - 其中 **positional embedding** 和 **layer norm** 需要针对不同的下游任务进行训练，这是很自然的过程。
