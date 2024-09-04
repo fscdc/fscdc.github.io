@@ -29,7 +29,7 @@ category: work
     </div>
 </div>
 <div class="caption">
-    We won the **first prize** in the National College Student System Ability Competition - Compiler Implementation Competition!
+    We won the FIRST prize in the National College Student System Ability Competition - Compiler Design Competition!
 </div>
 
 - We wrote a compiler for a simplified C language (SysY) using Rust, which can compile the source code into assembly code (RISC-V).
