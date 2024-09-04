@@ -10,7 +10,7 @@ tabs: true
 
 # PromptCast: A New Prompt-based Learning Paradigm for Time Series Forecasting
 
-![PromptCast 模型架构图](./pic/promptcast/structure.jpg)
+![PromptCast 模型架构图](/assets/img/pic/promptcast/structure.jpg)
 
 
 这篇方法太平凡了，简单说下：
@@ -24,7 +24,7 @@ tabs: true
 - **Prompt设计**：通过简单的设计修改，将时间序列数据以适合语言模型处理的方式呈现。
 - **直接询问**：类似于提问式学习，直接向模型询问未来的时间序列预测，而不进行复杂的转换或额外的预处理步骤。
 
-![PromptCast 方法示意图](./pic/promptcast/prompt.jpg)
+![PromptCast 方法示意图](/assets/img/pic/promptcast/prompt.jpg)
 
 这种方法的简便性为时间序列预测领域提供了一种全新的途径，虽然它的技术深度和创新性可能不如其他更复杂的方法，但在简化流程和直接性方面具有其独特的价值。
 
