@@ -4,7 +4,7 @@ title: Compiler Construction
 description: Team Member
 img: assets/img/compiler_bg.png
 importance: 5
-category: work
+category: competition
 ---
 
     ---

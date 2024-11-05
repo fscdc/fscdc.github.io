@@ -4,7 +4,7 @@ title: Artificial Intelligence Internship Team Project
 description: Team Leader
 img: assets/img/7.jpg
 importance: 5
-category: work
+category: competition
 ---
 
     ---

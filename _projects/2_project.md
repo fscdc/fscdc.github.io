@@ -4,7 +4,7 @@ title: University Integration Project
 description: Founder
 img: assets/img/5.jpg
 importance: 4
-category: work
+category: hoppy
 ---
 
     ---
