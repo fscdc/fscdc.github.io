@@ -1,8 +1,8 @@
 ---
 layout: page
 title: A Chrome Extension (Prompt Memo)
-description: Team Member
-img: assets/img/compiler_bg.png
+description: Team Leader
+img: assets/img/1.png
 importance: 5
 category: development
 ---

@@ -34,3 +34,4 @@ category: competition
 
 - We wrote a compiler for a simplified C language (SysY) using Rust, which can compile the source code into assembly code (RISC-V).
 - I mainly focus on the frontend part, auto tools and some small opts, including the ir-parser, test pipeline and so on.
+- GitHub Repository: [Orzcc](https://github.com/JuniMay/orzcc)

@@ -25,3 +25,4 @@ category: competition
 - A medical knowledge graph intelligent QA system utilizing the *Neo4j* database and *Django* framework.
 - Parallel data crawling, database construction, data visualizations (*Echarts*) and web design.
 - Won 'Excellent Team' award in final competition (**Top1, 5.6%**)
+- GitHub Repository: [Medical Knowledge Graph Intelligent QA System](https://github.com/fscdc/final_project)

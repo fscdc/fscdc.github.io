@@ -25,4 +25,5 @@ category: hoppy
 
 - Replicated and improved [scGMAI](https://pubmed.ncbi.nlm.nih.gov/33300547/) by employing parameter search and module replacement, achieving a TOP4 ranking in the ML course final project.
 - Achieved a **full score** in the AI course final defense, where my team focused on the object detection task.
-- Systematically organized and stored various code snippets (**over 40 stars**).
+- Systematically organized and stored various code snippets (**over 50 stars**).
+- GitHub Repository: [University Integration Project](https://github.com/fscdc/NKU-CS-FSC)
