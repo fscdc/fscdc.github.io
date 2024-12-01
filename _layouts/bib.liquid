@@ -89,12 +89,18 @@
         {%- else -%}
           {%- if coauthor_url -%}
             <a href="{{ coauthor_url }}">
-              {{- author.first }}
-              {{ author_last_html -}}
+              {% if author.first == "Sicheng" and author.last == "Feng" %}
+                <strong>{{- author.first }} {{ author_last_html -}}</strong>
+              {% else %}
+                {{- author.first }} {{ author_last_html -}}
+              {% endif %}
             </a>
           {%- else -%}
-            {{- author.first }}
-            {{ author_last_html -}}
+            {% if author.first == "Sicheng" and author.last == "Feng" %}
+              <strong>{{- author.first }} {{ author_last_html -}}</strong>
+            {% else %}
+              {{- author.first }} {{ author_last_html -}}
+            {% endif %}
           {% endif %}
         {%- endif -%}
       {% endfor %}
