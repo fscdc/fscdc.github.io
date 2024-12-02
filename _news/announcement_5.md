@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Awarded **China National Scholarship** (¥10000) for undergraduate students in 2024! 🎉
+Awarded **China National Scholarship** (¥10000) in 2024! 🎉

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Awarded **95s Heart Scholarship** (¥5000) for students outstanding performance in the field of computer systems in 2024! 🎉
+Awarded **95s Heart Scholarship** (¥5000) in 2024! 🎉

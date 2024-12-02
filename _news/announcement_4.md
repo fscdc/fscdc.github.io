@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We won **national first prize** (Top3, ¥30000) for 2024 National College Student Computer System Ability Competition - Compilation System Design Competition! 🎉
+We won **National First Prize** (¥30000) for 2024 National College Student Computer System Ability Competition - Compilation System Design Competition! 🎉
