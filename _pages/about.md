@@ -15,6 +15,7 @@ profile:
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
+intern: true # includes a list of internships
 ---
 
 I am currently an undergraduate student in Nankai University, majoring in Computer Science. I’m looking for *co-worker* to collaborate on Efficient LLM/DL & Ai4Bio, we can do some excellent works together.

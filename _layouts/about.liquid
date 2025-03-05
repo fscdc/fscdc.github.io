@@ -48,6 +48,14 @@ layout: default
       {% include news.liquid limit=true %}
     {% endif %}
 
+    <!-- Intern -->
+    {% if page.intern %}
+      <h2>
+        <a href="{{ '/intern/' | relative_url }}" style="color: inherit">intern</a>
+      </h2>
+      {% include intern.liquid limit=true %}
+    {% endif %}
+
     <!-- Latest posts -->
     {% if site.latest_posts.enabled %}
       <h2>
