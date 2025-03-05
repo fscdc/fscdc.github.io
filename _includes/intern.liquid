@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div class="intern">
+  <header class="intern-header">
+    <h1 class="intern-title">{{ page.title }}</h1>
+    <p class="intern-meta">
+      Start: {{ page.start_date | date: '%Y-%m-%d' }}<br>
+      End: {{ page.end_date | date: '%Y-%m-%d' }}<br>
+      {{ page.lab }}, supervised by {{ page.supervisor }}<br>
+    </p>
+  </header>
+
+  <article class="intern-content">
+    <div id="markdown-content">
+      {{ content }}
+    </div>
+  </article>
+</div>
