@@ -50,10 +50,8 @@ layout: default
 
     <!-- Intern -->
     {% if page.intern %}
-      <h2>
-        <a href="{{ '/intern/' | relative_url }}" style="color: inherit">intern</a>
-      </h2>
-      {% include intern.liquid limit=true %}
+      <h2>Internships</h2>
+      {% include intern.liquid %}
     {% endif %}
 
     <!-- Latest posts -->

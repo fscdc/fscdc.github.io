@@ -1,19 +1,44 @@
----
-layout: default
----
-<div class="intern">
-  <header class="intern-header">
-    <h1 class="intern-title">{{ page.title }}</h1>
-    <p class="intern-meta">
-      Start: {{ page.start_date | date: '%Y-%m-%d' }}<br>
-      End: {{ page.end_date | date: '%Y-%m-%d' }}<br>
-      {{ page.lab }}, supervised by {{ page.supervisor }}<br>
-    </p>
-  </header>
+{% comment %}
+  This snippet creates a table-based list of all intern entries in site.intern.
+  It references the approach used by your "news" snippet, including optional
+  limit and scrollable settings from _config.yml.
+{% endcomment %}
 
-  <article class="intern-content">
-    <div id="markdown-content">
-      {{ content }}
-    </div>
-  </article>
+<div class="intern-list">
+  {% assign interns_size = site.intern | size %}
+  {% if site.interns and site.interns.limit %}
+    {% assign interns_limit = site.interns.limit %}
+  {% else %}
+    {% assign interns_limit = interns_size %}
+  {% endif %}
+
+  <div
+    class="table-responsive"
+    {% if site.interns and site.interns.scrollable and interns_size > 3 %}
+      style="max-height: 60vw"
+    {% endif %}
+  >
+    <table class="table table-sm table-borderless">
+      {% for item in site.intern limit: interns_limit %}
+        <tr>
+          <!-- 左侧列：起止时间 -->
+          <th scope="row" style="width: 25%">
+            {{ item.start_date | date: '%b %d, %Y' }}
+            -
+            {{ item.end_date | date: '%b %d, %Y' }}
+          </th>
+          <!-- 右侧列：标题、实验室、导师等 -->
+          <td>
+            <!-- 标题链接到该实习详情页 -->
+            <a class="intern-title" href="{{ item.url | relative_url }}">
+              {{ item.title }}
+            </a><br>
+            <span class="intern-meta">
+              {{ item.lab }}, supervised by {{ item.supervisor }}
+            </span>
+          </td>
+        </tr>
+      {% endfor %}
+    </table>
+  </div>
 </div>
