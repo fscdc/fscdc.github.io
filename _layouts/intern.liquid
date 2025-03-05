@@ -7,7 +7,27 @@ layout: default
     <p class="intern-meta">
       Start: {{ page.start_date | date: '%Y-%m-%d' }}<br>
       End: {{ page.end_date | date: '%Y-%m-%d' }}<br>
-      {{ page.lab }}, supervised by {{ page.supervisor }}<br>
+
+      <!-- 实验室链接 -->
+      {% if page.lab_link %}
+        <a href="{{ page.lab_link }}" target="_blank" rel="noopener">
+          {{ page.lab_name }}
+        </a>
+      {% else %}
+        {{ page.lab_name }}
+      {% endif %}
+
+      , supervised by
+
+      <!-- 导师链接 -->
+      {% if page.supervisor_link %}
+        <a href="{{ page.supervisor_link }}" target="_blank" rel="noopener">
+          {{ page.supervisor_name }}
+        </a>
+      {% else %}
+        {{ page.supervisor_name }}
+      {% endif %}
+      <br>
     </p>
   </header>
 

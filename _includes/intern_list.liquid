@@ -1,9 +1,3 @@
-{% comment %}
-  This snippet creates a table-based list of all intern entries in site.intern.
-  It references the approach used by your "news" snippet, including optional
-  limit and scrollable settings from _config.yml.
-{% endcomment %}
-
 <div class="intern-list">
   {% assign interns_size = site.intern | size %}
   {% if site.interns and site.interns.limit %}
@@ -21,21 +15,36 @@
     <table class="table table-sm table-borderless">
       {% for item in site.intern limit: interns_limit %}
         <tr>
-          <!-- 左侧列：起止时间 -->
+          <!-- 时间段 -->
           <th scope="row" style="width: 25%">
             {{ item.start_date | date: '%b %d, %Y' }}
             -
             {{ item.end_date | date: '%b %d, %Y' }}
           </th>
-          <!-- 右侧列：标题、实验室、导师等 -->
           <td>
             <!-- 标题链接到该实习详情页 -->
             <a class="intern-title" href="{{ item.url | relative_url }}">
               {{ item.title }}
             </a><br>
-            <span class="intern-meta">
-              {{ item.lab }}, supervised by {{ item.supervisor }}
-            </span>
+
+            <!-- 实验室 -->
+            {% if item.lab_link %}
+              <a href="{{ item.lab_link }}" target="_blank" rel="noopener">
+                {{ item.lab_name }}
+              </a>
+            {% else %}
+              {{ item.lab_name }}
+            {% endif %}
+            , supervised by
+
+            <!-- 导师 -->
+            {% if item.supervisor_link %}
+              <a href="{{ item.supervisor_link }}" target="_blank" rel="noopener">
+                {{ item.supervisor_name }}
+              </a>
+            {% else %}
+              {{ item.supervisor_name }}
+            {% endif %}
           </td>
         </tr>
       {% endfor %}
