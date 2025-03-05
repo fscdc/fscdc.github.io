@@ -17,4 +17,4 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am currently an undergraduate student in [Nankai University](https://www.nankai.edu.cn/), majoring in Computer Science. I’m looking for *co-worker* to collaborate on Efficient LLM/DL & Ai4Bio, we can do some excellent works together.
+I am currently an undergraduate student in Nankai University, majoring in Computer Science. I’m looking for *co-worker* to collaborate on Efficient LLM/DL & Ai4Bio, we can do some excellent works together.
