@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We won **National First Prize** (¥30000) for 2024 National College Student Computer System Ability Competition - Compilation System Design Competition! 🎉
+Won **National First Prize** (¥30000) for [Computer System Development Capability Competition](https://compiler.educg.net/#/) in 2024!
