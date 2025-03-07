@@ -1,15 +1,14 @@
-<!-- ---
-title: Intern 2
+---
+title: Oracle Pruning
 layout: intern
-start_date: 2024-06-01
-end_date: 2024-08-31
+start_date: 2024-07-09
+end_date: 2024-11-09
 
-lab_name: "LV Lab, NUS"
-lab_link: "https://www.example.com/lv-lab"
+lab_name: "ENCODE Lab, Westlake University"
+lab_link: ""
 
-supervisor_name: "Prof Xinchao Wang"
-supervisor_link: "https://www.example.com/prof-wang"
+supervisor_name: "Prof Huan Wang"
+supervisor_link: "https://huanwang.tech/"
 ---
 
-
-TEST TEST TEST -->
+One paper is on ArXiv.
