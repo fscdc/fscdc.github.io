@@ -1,15 +1,14 @@
 <!-- ---
-title: Intern 2
+title: Efficient LLM 
 layout: intern
-start_date: 2024-06-01
-end_date: 2024-08-31
+start_date: 2025-01-24
+end_date: 2024-04-24
 
-lab_name: "LV Lab, NUS"
-lab_link: "https://www.example.com/lv-lab"
+lab_name: "LV Lab, National University of Singapore"
+lab_link: "https://cde.nus.edu.sg/ece/lvlab/"
 
 supervisor_name: "Prof Xinchao Wang"
-supervisor_link: "https://www.example.com/prof-wang"
+supervisor_link: "https://sites.google.com/site/sitexinchaowang/"
 ---
 
-
-TEST TEST TEST -->
+I am working on the topic! -->
