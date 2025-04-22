@@ -1,5 +1,5 @@
 ---
-title: Efficient LLM 
+title: Efficient Reasoning Models
 layout: intern
 start_date: 2025-01-24
 end_date: 2024-04-22
