@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Won **National First Prize** (¥30000) for **[CSDC Competition](https://compiler.educg.net/#/)** in 2024!
+Won **National First Prize** (TOP3, ¥30000) for **[CSDC](https://compiler.educg.net/#/)** in 2024!
