@@ -1,7 +1,7 @@
 @article{feng2025canmllms,
   abbr={Arxiv},
   title={Can MLLMs Guide Me Home? A Benchmark Study on Fine-Grained Visual Reasoning from Transit Maps},
-  author={Feng†, Sicheng and Wang†, Song and Ouyang, Shuyi. and Kong, Lingdong. and Song, Zikai. and Zhu, Jianke. and Wang*, Huan. and Wang, Xinchao.},
+  author={Feng†, Sicheng and Wang†, Song and Ouyang, Shuyi and Kong, Lingdong and Song, Zikai and Zhu, Jianke and Wang*, Huan and Wang, Xinchao},
   journal={Arxiv},
   year={2025},
   month={May},
@@ -19,20 +19,22 @@
 @article{feng2025efficient,
   abbr={Arxiv},
   title={Efficient Reasoning Models: A Survey},
-  author={Feng, Sicheng. and Fang, Gongfan. and Ma, Xinyin. and Wang*, Xinchao.},
+  author={Feng, Sicheng and Fang, Gongfan and Ma, Xinyin and Wang*, Xinchao},
   journal={Arxiv},
   year={2025},
   month={April},
   code={https://github.com/fscdc/Awesome-Efficient-Reasoning-Models},
   arxiv={https://arxiv.org/abs/2504.10903},
   annotation={* Corresponding authors},
+  preview={efficient-survey.png},
   selected={true},
+  abstract={Reasoning models have demonstrated remarkable progress in solving complex and logic-intensive tasks by generating extended Chain-of-Thoughts (CoTs) prior to arriving at a final answer. Yet, the emergence of this "slow-thinking" paradigm, with numerous tokens generated in sequence, inevitably introduces substantial computational overhead. To this end, it highlights an urgent need for effective acceleration. This survey aims to provide a comprehensive overview of recent advances in efficient reasoning. It categorizes existing works into three key directions: (1) shorter - compressing lengthy CoTs into concise yet effective reasoning chains; (2) smaller - developing compact language models with strong reasoning capabilities through techniques such as knowledge distillation, other model compression techniques, and reinforcement learning; and (3) faster - designing efficient decoding strategies to accelerate inference. A curated collection of papers discussed in this survey is available in our GitHub repository.}
 }
 
 @article{feng2024oracle,
   abbr={Arxiv},
   title={Is Oracle Pruning the True Oracle?},
-  author={Feng, Sicheng. and Tao, Keda. and Wang*, Huan.},
+  author={Feng, Sicheng and Tao, Keda and Wang*, Huan},
   journal={Arxiv},
   year={2024},
   month={Dec},
@@ -40,13 +42,15 @@
   arxiv={https://arxiv.org/abs/2412.00143},
   code={https://github.com/fscdc/Oracle-Pruning-Sanity-Check},
   annotation={* Corresponding authors},
+  preview={oracle.png},
   selected={true},
+  abstract={Oracle pruning, which selects unimportant weights by minimizing the pruned train loss, has been taken as the foundation for most neural network pruning methods for over 35 years, while few (if not none) have thought about how much the foundation really holds. This paper, for the first time, attempts to examine its validity on modern deep models through empirical correlation analyses and provide reflections on the field of neural network pruning. Specifically, for a typical pruning algorithm with three stages (pertaining, pruning, and retraining), we analyze the model performance correlation before and after retraining. Extensive experiments (37K models are trained) across a wide spectrum of models (LeNet5, VGG, ResNets, ViT, MLLM) and datasets (MNIST and its variants, CIFAR10/CIFAR100, ImageNet-1K, MLLM data) are conducted. The results lead to a surprising conclusion: on modern deep learning models, the performance before retraining is barely correlated with the performance after retraining. Namely, the weights selected by oracle pruning can hardly guarantee a good performance after retraining. This further implies that existing works using oracle pruning to derive pruning criteria may be groundless from the beginning. Further studies suggest the rising task complexity is one factor that makes oracle pruning invalid nowadays. Finally, given the evidence, we argue that the retraining stage in a pruning algorithm should be accounted for when developing any pruning criterion.}
 }
 
 @article{feng2024unveiling,
   abbr={Cell Discov},
   title={Unveiling potential threats: backdoor attacks in single-cell pre-trained models.},
-  author={Feng, Sicheng. and Li, Siyu. and Chen*, Luonan. and Chen*, Shengquan.},
+  author={Feng, Sicheng and Li, Siyu and Chen*, Luonan and Chen*, Shengquan},
   journal={Cell Discovery},
   volume={10},
   pages={122},
@@ -59,5 +63,6 @@
   seqchina={https://mp.weixin.qq.com/s/n-TP8O1zQAy8ITBJewWARg},
   additional_info={ (14.8/Q1 TOP)},
   annotation={* Corresponding authors},
+  preview={backdoor.png},
   selected={true},
 }
