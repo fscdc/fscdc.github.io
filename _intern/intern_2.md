@@ -10,5 +10,3 @@ lab_link: ""
 supervisor_name: "Prof Huan Wang"
 supervisor_link: "https://huanwang.tech/"
 ---
-
-One paper is on ArXiv.
