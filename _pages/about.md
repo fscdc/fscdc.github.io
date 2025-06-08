@@ -18,4 +18,4 @@ social: true # includes social icons at the bottom of the page
 intern: true # includes a list of internships
 ---
 
-I am currently an undergraduate student in Nankai University, majoring in Computer Science. I’m looking for *co-worker* to collaborate on Efficient LLM/DL & Ai4Bio, we can do some excellent works together.
+I am currently an undergraduate student in Nankai University, majoring in Computer Science. I am broadly interested in model compression (e.g., pruning, efficient LLMs) and reasoning with LLMs/MLLMs (efficiency, visual reasoning).
