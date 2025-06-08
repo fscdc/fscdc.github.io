@@ -2,7 +2,7 @@
 title: ReasonMap
 layout: intern
 start_date: 2025-04-19
-end_date: now
+end_date: 2025-05-23
 
 lab_name: "ENCODE Lab, Westlake University"
 lab_link: ""

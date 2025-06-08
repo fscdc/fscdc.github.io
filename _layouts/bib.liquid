@@ -198,6 +198,11 @@
       {% if entry.abstract %}
         <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
       {% endif %}
+      {% if entry.arxiv %}
+        <a href="{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">
+         <i class="ai ai-arxiv"></i> arXiv
+        </a>
+      {% endif %}
       {% if entry.webpage %}
         <a href="{{ entry.webpage }}" class="btn btn-sm z-depth-0" role="button">
          <i class="fas fa-globe"></i> WEB
@@ -252,11 +257,6 @@
       {% endif %}
       {% if entry.seqchina %}
         <a href="{{ entry.seqchina }}" class="btn btn-sm z-depth-0" role="button">测序中国</a>
-      {% endif %}
-      {% if entry.arxiv %}
-        <a href="{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">
-         <i class="ai ai-arxiv"></i> arXiv
-        </a>
       {% endif %}
       {% if entry.poster %}
         {% if entry.poster contains '://' %}
