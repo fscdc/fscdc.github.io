@@ -239,6 +239,15 @@
       {% if entry.code %}
         <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
       {% endif %}
+      {% if entry.dataset %}
+        <a href="{{ entry.dataset }}" class="btn btn-sm z-depth-0" role="button">Dataset</a>
+      {% endif %}
+      {% if entry.qbitai %}
+        <a href="{{ entry.qbitai }}" class="btn btn-sm z-depth-0" role="button">量子位</a>
+      {% endif %}
+      {% if entry.seqchina %}
+        <a href="{{ entry.seqchina }}" class="btn btn-sm z-depth-0" role="button">测序中国</a>
+      {% endif %}
       {% if entry.poster %}
         {% if entry.poster contains '://' %}
           <a href="{{ entry.poster }}" class="btn btn-sm z-depth-0" role="button">Poster</a>
