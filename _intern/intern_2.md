@@ -5,7 +5,7 @@ start_date: 2024-07-09
 end_date: 2024-11-09
 
 lab_name: "ENCODE Lab, Westlake University"
-lab_link: ""
+lab_link: "https://encode-lab-ai.github.io/"
 
 supervisor_name: "Prof Huan Wang"
 supervisor_link: "https://huanwang.tech/"
